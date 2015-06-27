@@ -1,0 +1,21 @@
+* Parts
+1) 1 x LMD18200T (~ $30)
+2) 1 x LM7805 ($1.25)
+3) 3 x 0.01 uF cap (3 x $0.25)
+4) 1 x 1uF cap ($0.78)
+5) 1 x 1000 uF 16/25 volts electrolytic cap ($0.40)
+6) 1 x 220 ohm 1/8 watt resistor
+7) 1 x 1200 ohm 1/8 watt resistor 
+8) 1 x 2700 ohm 1/8 watt resistor
+9) 1 x Green LED (Power on indicator) (10mm $0.60)
+   - Jaycar 25+ for $0.53 each
+   - 2.2 V @ 20 mA
+   - requires 150 ohms, 1/8W resistor (brown-green-brown)
+10) 1 x Red LED (High Temp Warning) (10mm $0.60)
+   - Jaycar 25+ for $0.53 each
+   - 2 V @ 20 mA
+   - requires 150 ohms, 1/8W resistor (brown-green-brown)
+11) 1 x RJ11 jack ($1.59)
+12) 1 x Power barrel jack ($1.59)
+13) 1 x 2 screw terminal ($1.59)
+
