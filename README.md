@@ -5,14 +5,18 @@ This project is comprised of the following:
 
 * **Command Station**: C firmware for an AVR micro *functional for baseline packets*
     * Integrated DSL parser to control system from a simple serial terminal, eg:
-            > forward addr 10 speed 5
-            > stop addr 10
-            > reverse addr 10 speed 3
-            > stop all
+
+             > forward addr 10 speed 5
+             > stop addr 10
+             > reverse addr 10 speed 3
+             > stop all
+
     * Packet scheduler (packet cache & auto-refreshing)
     * Simple internal design
     * *Raw* DCC packet passthrough allows hex-encoded DCC packets to be sent to the track, eg:
+
             > raw 0xdeadbeed
+
 * **Booster**: design for a DCC signal booster designed to work with the command station *functional*
     * Schematics & board design based on minidcc.com's booster
 * **Repeater**: takes a 5V DCC signal and outputs n identical signals for feeding into more boosters
@@ -44,6 +48,7 @@ Basic Design
 ------------
 
 With a single booster and track section.
+
                                                        /  /
     +----------+------+         +---------+           /  / 
     | Command Station |-------->| Booster |-------> Track
